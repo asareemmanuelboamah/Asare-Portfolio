@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Tapestry&display=swap");
+body {
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  margin: auto;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-image: linear-gradient(to right bottom, #181751, #1b1a57, #1d1c5d, #201f64, #22226a); */
+}
+
+h2 {
+  font-family: "Tapestry", cursive;
+  letter-spacing: 0.5rem;
+  color: #f51d7e;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.col-1 {
+  background-color: rgb(39, 206, 33);
+  width: 50%;
+  height: 100vh;
+  background-image: url("bg.jpg");
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.float {
+  margin-left: 3rem;
+  margin-top: 16rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.float p {
+  margin-left: 8rem;
+  color: #03afff;
+}
+
+.col-2 {
+  /* background-color: rgb(20, 103, 141); */
+  width: 50%;
+  height: 100vh;
+  padding: 5rem;
+  color: white;
+  font-family: "Patrick Hand", cursive;
+}
+
+.col-2 p {
+  margin-top: 8rem;
+  width: 25rem;
+  height: 16rem;
+  padding: 0 1rem 1rem 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+p1 {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
